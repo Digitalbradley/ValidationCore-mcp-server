@@ -1,6 +1,19 @@
 # ValidationCore MCP Server
 
+[![npm version](https://badge.fury.io/js/@validationcore%2Fmcp-server.svg)](https://www.npmjs.com/package/@validationcore/mcp-server)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Enterprise e-commerce validation for Claude Desktop. Transform Claude into your personal product optimization assistant with AI-powered Google Shopping compliance analysis.
+
+## ✨ Features
+
+- **🎯 GMC Compliance Analysis**: 80 specialized validation fields across 7 layers
+- **🔍 GTIN Verification**: Advanced barcode validation with 18 fraud detection algorithms
+- **📊 Revenue Impact Predictions**: AI-powered revenue forecasting for product optimizations
+- **🚀 Dual-Scoring Methodology**: GMC Compliance Score + Performance Score
+- **⚡ Batch Processing**: Optimize up to 100 products in a single request
+- **🤖 Natural Language Interface**: Conversational validation through Claude Desktop
+- **📈 Real-time Analytics**: Instant compliance checking and optimization recommendations
 
 ## 🚀 Quick Start
 
@@ -107,6 +120,31 @@ VALIDATIONCORE_API_KEY=your_key npm run dev
 - [Documentation](https://www.validationcore.dev/docs/claude-desktop)
 - [Community Support](https://www.validationcore.dev/contact-us)
 
+## 🔧 Troubleshooting
+
+### API Key Issues
+- Verify your API key is active at [ValidationCore Dashboard](https://www.validationcore.dev/dashboard)
+- Ensure you're using an MCP Premium API key (not a regular API key)
+- Check that the key is properly set in your Claude Desktop configuration
+
+### Connection Errors
+- Confirm you have an active internet connection
+- Verify the ValidationCore API is accessible: `https://www.validationcore.dev`
+- Check your account has sufficient credits for MCP usage
+
+### Claude Desktop Not Recognizing Server
+- Restart Claude Desktop after adding the configuration
+- Verify the JSON configuration is valid (no trailing commas, proper quotes)
+- Check Claude Desktop logs for error messages
+
+## 🏢 Enterprise
+
+Looking for enterprise features, custom integrations, or white-label solutions? Contact us at [ValidationCore Enterprise](https://www.validationcore.dev/contact-us)
+
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) file for details.
+
+---
+
+**Built with ❤️ by [ValidationCore](https://www.validationcore.dev)** | Powered by Claude Desktop & Anthropic MCP
